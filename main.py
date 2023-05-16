@@ -12,4 +12,16 @@ def encrypt(plain_text, shift_amount):
     
     print(f'The encoded text is {cipher_text}')
 
-encrypt(plain_text = text, shift_amount = shift)
+
+def decryption(plain_text, shift_amount):
+    cipher_text = ""
+    for letter in plain_text:
+        position = alphabet.index(letter) - shift_amount
+        cipher_text += alphabet[position]
+    
+    print(f'The encoded text is {cipher_text}')
+
+if direction == 'encode':
+    encrypt(plain_text = text, shift_amount = shift)
+elif direction == 'decode':
+    decryption(plain_text = text, shift_amount = shift)
