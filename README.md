@@ -4,6 +4,7 @@ For the purpose of encrypting passwords using the Caesar Cipher method
 
 Made using:
 - For Loops
+- While Loops
 - Def Functions
 - If & Else
 
