@@ -10,4 +10,3 @@ Made using:
 Features
 - Password Encryption
 - Password Decryption
-- Password Reoganising
